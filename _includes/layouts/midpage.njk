@@ -1,0 +1,29 @@
+---
+layout: layouts/base.njk
+---
+        <!-- sidebar cart item -->
+        {% include './_partials/sidecart.njk' %}
+		    <!-- sidebar cart item end -->
+
+        <!-- main header -->
+        {% include './_partials/header.njk' %}
+	      <!-- main header end -->
+
+		    <!-- Mobile Menu  -->
+		    {% include './_partials/mobile-menu.njk' %}
+		    <!-- Mobile Menu end-->
+
+				<!-- page-title -->
+		    {% include './_partials/page-title.njk' %}
+				<!-- page-title end -->
+		    <!-- About -->
+		    {% include './_partials/about-style-two.njk' %}
+		    <!-- About end-->
+        <!-- service-section -->
+        {% include './_partials/service.njk' %}
+        <!-- service-section end -->
+
+        <!-- project-section -->
+        {% include './_partials/project.njk' %}
+        <!-- project-section end -->				
+{{ content | safe }}
